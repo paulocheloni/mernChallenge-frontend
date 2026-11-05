@@ -1,5 +1,4 @@
-module.exports = {
-  env: {
-    MONGO_URI: 'mongodb+srv://admin:admin@cluster0.kexej.mongodb.net/MERN_CHALLENGE?retryWrites=true&w=majority',
-  },
-};
+// Server-side code reads process.env.MONGO_URI (see .env.example).
+// Do not hardcode a connection string, and do not list MONGO_URI under
+// `env`: Next.js inlines those values into the client bundle.
+module.exports = {};
